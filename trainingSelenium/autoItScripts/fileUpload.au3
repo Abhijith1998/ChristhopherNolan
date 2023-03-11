@@ -1,0 +1,7 @@
+Send("C:\Users\abhis\OneDrive\Desktop\Resumes\Yashwanthpn.docx")
+Sleep(500)
+Send("{TAB}")
+Sleep(500)
+Send("{TAB}")
+Sleep(500)
+Send("{ENTER}")

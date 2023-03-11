@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="crossBrowserTesting.Jawa">
+        <methods>
+          <include name="buyJawa"/>
+          <include name="browserSetutp"/>
+        </methods>
+      </class> <!-- crossBrowserTesting.Jawa -->
+      <class name="crossBrowserTesting.Ducati">
+        <methods>
+          <include name="browserSetutp"/>
+          <include name="buyDucati"/>
+        </methods>
+      </class> <!-- crossBrowserTesting.Ducati -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="crossBrowserTesting.Jawa">
+        <methods>
+          <include name="buyJawa"/>
+          <include name="browserSetutp"/>
+        </methods>
+      </class> <!-- crossBrowserTesting.Jawa -->
+      <class name="crossBrowserTesting.Ducati">
+        <methods>
+          <include name="browserSetutp"/>
+          <include name="buyDucati"/>
+        </methods>
+      </class> <!-- crossBrowserTesting.Ducati -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
