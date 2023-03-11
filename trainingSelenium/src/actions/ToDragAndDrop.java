@@ -1,6 +1,7 @@
 package actions;
 
 import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +24,6 @@ public class ToDragAndDrop {
 		driver.findElement(By.linkText("Log in")).click();
 		driver.findElement(By.id("user")).sendKeys("abhishiva1998@gmail.com");
 		driver.findElement(By.id("login")).click();
-		explicitWait.until(ExpectedConditions.elementToBeClickable(By.id("login-submit")));
 		WebElement password = driver.findElement(By.id("password"));
 		password.sendKeys("abhijith.s7598");
 		driver.findElement(By.id("login-submit")).click();
