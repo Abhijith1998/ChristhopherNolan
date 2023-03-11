@@ -7,7 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/abhis/Downloads/selenium-server-standalone-3.141.59(1).jar" sourcepath="C:/Users/abhis/OneDrive/Documents/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="jars/csvJars/commons-beanutils-1.9.4.jar"/>
 	<classpathentry kind="lib" path="jars/csvJars/commons-collections4-4.4.jar"/>
 	<classpathentry kind="lib" path="jars/csvJars/commons-lang3-3.12.0.jar"/>
